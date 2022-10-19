@@ -4,7 +4,7 @@
             "id": 0, 
             "project_name": "Random Quote Generator",
             "description": "In this application, when the user clicks the button a new quote is generated", 
-            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "technologies": ["HTML","Reddit" , "CSS", "JavaScript"], 
             "live_link": "https://tboyde.github.io/fsjs-treehouse-unit-1/", 
             "github_link": "https://github.com/tboyde/fsjs-treehouse-unit-1", 
             "image_urls": ["./images/Project1_Main.png", "./images/Project1_additional.png"]
