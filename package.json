@@ -18,6 +18,7 @@
     "has": "^1.0.3",
     "has-symbols": "^1.0.3",
     "has-tostringtag": "^1.0.0",
+    "http-errors": "^2.0.0",
     "is-core-module": "^2.10.0",
     "is-expression": "^4.0.0",
     "is-promise": "^2.2.2",
