@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+    h1= err.status 
+    h3= err.message 
+    p Perhaps, you can try heading back. Shoot me a message through slack about this new path and I'll consider adding it...
+    pre #{err.stack}
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

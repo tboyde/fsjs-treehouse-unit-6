@@ -1,9 +1,12 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable strict */
 
 'use strict';
 
 /**
  * Handle mobile menu functionality to hide/reveal sidebar on mobile layouts
  */
+// eslint-disable-next-line no-undef
 const body = document.querySelector('body');
 let headerBtnClicked = false;
 

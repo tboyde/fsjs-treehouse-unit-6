@@ -3,66 +3,75 @@
         {
             "id": 0, 
             "project_name": "Random Quote Generator",
-            "description": "In this application, when the user clicks the button a new quote is generated", 
-            "technologies": ["HTML","Reddit" , "CSS", "JavaScript"], 
+            "description": "Within this application, my goal was to create an array that holds several different motivational quotes to inspire and uplift other newbie devs. When the visitor presses the  ‘show another quote’ button, the app then random selects a quote from array and displays the quote on screen with a new background color.",
+            "bonus": "If you don’t feel like pressing the buttons, no worries! Every 10 seconds, the app will automatic refresh and display a randomly selected quote to you." , 
+            "month": "Completed In August 2022", 
+            "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://tboyde.github.io/fsjs-treehouse-unit-1/", 
             "github_link": "https://github.com/tboyde/fsjs-treehouse-unit-1", 
             "thumbnail": "/static/Project1_Main.png",
             "image_urls": [
-                {"id": 0, "src": "/static/Project1_Main.png"}, 
-                {"id": 1, "src": "/static/Project1_additional.png"}
+                {"id": 0, "src": "/static/Project1_sc.png"},
+                {"id": 1, "src": "/static/Project1_sc2.png"}
             ]
         },
         {
             "id": 1,  
             "project_name": "Data Pagination and Filtering",
-            "description": "This app allows for multiple strings of data to be organized in data pagination", 
+            "description": "The objective of this project was to dynamically multiple pages of student information cards and display them to the end user. It was important that each page holds nine cards that display the student’s name, email, and joining information. With the help of the pagination function, I was to create and append each of the elements needed for the page buttons and successfully create space to display nine students on each of the pages.", 
+            "bonus": "With the help of the pagination function, I was able to create and append each of the elements needed for the page buttons and successfully create space to display nine students on each of the pages.", 
+            "month": "Completed In August 2022", 
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://tboyde.github.io/fsjs-treehouse-unit-2/", 
             "github_link": "https://github.com/tboyde/fsjs-treehouse-unit-2", 
             "thumbnail": "/static/Project2_Main.png", 
             "image_urls": [
-                {"id": 0, "src": "/static/Project2_Main.png"}, 
-                {"id": 1, "src": "/static/Project2_additional.png"}
+                {"id": 0, "src": "/static/Project2_sc.png"}, 
+                {"id": 1, "src": "/static/Project2_sc2.png"}
             ]
         }, 
         {
             "id": 2, 
             "project_name": "Interactive Form",
-            "description": "Hello! And welcome to the read me for the Full Stack Conference Form. This form has been built with the intention of providing users with the appropriate fields to register for various activities happening at the conference.", 
+            "description": "This form was built the intention of requiring users to fill out select fields into to successfully register for a Full Stack Conference. With building this form, it was important that I adhere and implement accessibility guidelines to make this form user friendly to all end users.",
+            "bonus": "When a user uses this form, they will notice that certain fields will become enabled when selecting certain options, errors and valid confirmation signs when appear when they have completed select fields, they can use different types of payment options, and most importantly, the form cannot be processed without filling out the required fields.",
+            "month": "Completed In September 2022",   
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://tboyde.github.io/fsjs-treehouse-unit-3-Interactive-Form/", 
             "github_link": "https://github.com/tboyde/fsjs-treehouse-unit-3-Interactive-Form", 
             "thumbnail": "/static/Project3_Main.png", 
             "image_urls": [
-                {"id": 0, "src": "/static/Project3_Main.png"}, 
-                {"id": 1, "src": "/static/Project3_additional.png"}
+                {"id": 0, "src": "/static/Project3_additional.png"}, 
+                {"id": 1, "src": "/static/Project3_sc.png"}
             ]
         }, 
         {
             "id": 3, 
             "project_name": "Phrase Hunter Game",
-            "description": "This project is a browser-based, word guessing game that allows users to find encouraging phrases.", 
+            "description": "Phrase Hunter is a browser-based, word guessing that enables users to find encouraging phrases. With building this game, OOP was extremely important to the performance and structure of this game. This application was built primarily to keep score of the users lives, score, and ultimately determine the outcome of their game as a winner 👑 or a loser 😢.  ", 
+            "month": "Completed In September 2022", 
             "technologies": ["HTML","CSS","JavaScript"], 
             "live_link": "https://tboyde.github.io/fsjs-treehouse-unit-4/", 
             "github_link": "https://github.com/tboyde/fsjs-treehouse-unit-4", 
             "thumbnail": "/static/Project4_Main.png", 
             "image_urls": [
-                {"id": 0, "src": "/static/Project4_Main.png"}, 
-                {"id": 1, "src": "/static/Project4_additional.png"}
+                {"id": 0, "src": "/static/Project4_sc.png"}, 
+                {"id": 1, "src": "/static/Project4_sc2.png"}
             ]
         },
         {
             "id": 4, 
             "project_name": "Employee Directory",
-            "description": " This makes use of public APIs, makes API requests, and handles the data that is returned from the requested to be used in the AS Directory app.", 
+            "description": "This directory was built with the intent of allowing the remote employees of a fictitious company connect, view, and share their contact information safely within one secure place. Each of the employees card are dynamically created with public APIs. If a user then chooses to select one of the employees’ identification cards, then a dynamically created module appears providing information on the employees’ name, contact info, city & state, and birthdate. ",
+            "bonus": "This app makes use of public APIs and handles the data returned inside of the request to create new randomized employee cards every time a user refreshes the app.", 
+            "month": "Completed In October 2022", 
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://tboyde.github.io/fsjs-treehouse-unit-5/", 
             "github_link": "https://github.com/tboyde/fsjs-treehouse-unit-5", 
             "thumbnail": "/static/Project5_Main.png", 
             "image_urls": [
-                {"id": 0, "src": "/static/Project5_Main.png"}, 
-                {"id": 1, "src": "/static/Project5_additional.png"}
+                {"id": 0, "src": "/static/Project5_sc.png"},
+                {"id": 1, "src": "/static/Project5_sc2.png" }
             ]
         }
     ]

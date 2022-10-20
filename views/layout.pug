@@ -5,7 +5,9 @@ html(lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Taneya Boyde - Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@300&family=PT+Sans&family=Raleway:wght@100;400;600;700&family=Trirong&display=swap' rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
 
@@ -14,16 +16,15 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src=`/static/Portfolio_Owner.jpg`, alt='')
+          img.thumbnail(src=`/static/Portfolio_Owner.png`, alt='profile photo')
         .dev-intro-box
 
-          //- Replace with your name
+        
           h5 Taneya Boyde
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p Hello and thanks for stopping by! I am Taneya, a self-taught, motivated Software Engineer that aims towards building and creating tools that help people. Feel free to click around and learn more about me, my work, and the information I used to build out my projects. 
-      
-          //- Add path from your '/about' route handler to the href below
+          p Hello and thanks for stopping by! 
+          p I am a self-taught, motivated Software Engineer that’s passionate about creating and contributing to solutions that makes life for others easier. While you’re here, feel free to click around to learn more about me, my projects, and some of the technologies I used to build them. 
+
           a(href='/about') Learn More &rarr;
 
     .wrapper
@@ -31,7 +32,6 @@ html(lang="en" dir="ltr")
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
           span Taneya Boyde
 
       block content
