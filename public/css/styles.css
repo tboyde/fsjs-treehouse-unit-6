@@ -33,12 +33,13 @@ article {
 
 h1.animate__animated.animate__fadeIn{
   font-family: 'PT Sans', sans-serif;
+  animation-duration: 3.5s;
 }
 
 h2,h3,h4,p{
   font-family: 'Raleway', sans-serif; 
 }
-
+ç
 h5{
   font-family: 'Josefin-sans', sans-serif; 
   letter-spacing: 2.5px;
