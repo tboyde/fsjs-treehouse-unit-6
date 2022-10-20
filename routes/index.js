@@ -30,6 +30,7 @@ router.get('/project/:id', function(req, res, next) {
     res.render('project', { project });
   } else if (!project) {
      res.status(404); 
+     next (); 
   }
 });
 
